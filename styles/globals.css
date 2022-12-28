@@ -203,7 +203,7 @@
   text-align: end;
   background: var(--color-footer);
   padding: 2rem;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 40px;
   margin-top: 1rem;
@@ -248,6 +248,7 @@
 
   .gpt3__navbar-menu_container {
       top: 20px;
+      margin-bottom: 0;
   }
 
   .gpt3__navbar-menu_container-links-sign {

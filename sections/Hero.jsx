@@ -19,6 +19,7 @@ const Hero = () => (
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           CYBER SECURITY
         </motion.h1>
+        
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
@@ -28,14 +29,14 @@ const Hero = () => (
       </div>
 
       <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
+        variants={slideIn('right', 'tween', 0.2, 0.5)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div className="absolute w-full h-[300px] hero-gradient1 rounded-tl-[140px] z-[0] -top-[30px]" />
 
         <img
-          src="/bg-logo.png"
-          alt="hero_cover"
+          src="/bg-img-0.png"
+          alt="background"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 

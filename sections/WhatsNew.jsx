@@ -23,7 +23,7 @@ const WhatsNew = () => (
         <TypingText title="| Academics" />
         <TitleText title={<>Academics</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          <a target='_blank' href='https://mallareddycybersecurity.firebaseapp.com/sem-II-1.html'>
+          <a target="_Blank" rel="noreferrer" href='https://mallareddycybersecurity.firebaseapp.com'>
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />
             ))}
@@ -35,7 +35,7 @@ const WhatsNew = () => (
         variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <a target='_blank' href='https://mallareddycybersecurity.firebaseapp.com/sem-II-1.html'>
+        <a target="_Blank" rel="noreferrer" href='https://drive.google.com/drive/folders/1-iPwqG_4uyqik0fe-VxnxdCs-tDxD4VB?usp=share_link'>
           <img
             src="/Academics.svg"
             alt="Academics"

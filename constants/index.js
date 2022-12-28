@@ -13,7 +13,7 @@ export const exploreWorlds = [
   },
   {
     id: 'placement-3',
-    imgUrl: '/wipro-logo2.jpeg',
+    imgUrl: '/Wipro.webp',
     title: 'Wipro',
     link: 'https://www.wipro.com/',
   },
@@ -41,13 +41,13 @@ export const newFeatures = [
   {
     imgUrl: '/books1.svg',
     title: 'Study Material',
-    subtitle:'Academic notes are avalible here.',
+    subtitle:'Click here to get Academic study material',
   },
   {
     imgUrl: '/online_video.svg',
     title: 'Courses',
     subtitle:
-        'Premium courses by Industrial experts',
+        'Click here to get Premium courses by Industrial experts',
   },
 ];
 
@@ -75,7 +75,7 @@ export const insights = [
 export const socials = [
   {
     name: 'mail',
-    url: '/mail.png',
+    url: '/email.svg',
     link: 'mailto:csassociation@mrec.ac.in'
   },
   {
@@ -90,12 +90,12 @@ export const socials = [
   },
   {
     name: 'telegram',
-    url: '/telegram.png',
+    url: '/telegram.svg',
     link: 'https://t.me/+9VuPVOVqeUZkYWNl'
   },
   {
     name: 'Discord',
-    url: '/discord.png',
+    url: '/discord.svg',
     link: 'https://discord.com/invite/YTacNZJrMX?lt_utm_source=lt_share_link'
   },
 ];
