@@ -19,26 +19,26 @@ const Insights = () => {
       .catch((error) => { console.error(error); });
   });
   return (
-  <section className={`${styles.paddings} relative z-10` } id='events'>
-    <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
-    >
-      <TypingText title="| Events" textStyles="text-center" />
-      <TitleText title={<>EVENTS</>} textStyles="text-center" />
-      <div className="mt-[50px] flex flex-col gap-[30px]">
-        {data.map((item, index) => (
-          <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
-        ))}
-      </div>
-      <button type="button" className="mx-auto mt-[60px] mb-[60px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-        Show More..
-      </button>
-    </motion.div>
-  </section>
+    <section className={`${styles.paddings} relative z-10`} id="events">
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}
+      >
+        <TypingText title="| Events" textStyles="text-center" />
+        <TitleText title={<>EVENTS</>} textStyles="text-center" />
+        <div className="mt-[50px] flex flex-col gap-[30px]">
+          {data.map((item, index) => (
+            <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
+          ))}
+        </div>
+        <button type="button" className="mx-auto mt-[60px] mb-[60px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+          Show More..
+        </button>
+      </motion.div>
+    </section>
   );
 };
 
