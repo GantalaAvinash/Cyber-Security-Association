@@ -34,7 +34,7 @@ const Insights = () => {
             <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
           ))}
         </div>
-        <button type="button" className="mx-auto mt-[60px] mb-[60px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+        <button type="button" className="cursor-pointer mx-auto mt-[60px] mb-[60px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
           Show More..
         </button>
       </motion.div>
