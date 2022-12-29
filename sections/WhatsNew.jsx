@@ -23,11 +23,9 @@ const WhatsNew = () => (
         <TypingText title="| Academics" />
         <TitleText title={<>Academics</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          <a target="_Blank" rel="noreferrer" href='https://mallareddycybersecurity.firebaseapp.com'>
-            {newFeatures.map((feature) => (
-              <NewFeatures key={feature.title} {...feature} />
-            ))}
-          </a>
+          {newFeatures.map((feature) => (
+            <NewFeatures key={feature.title} {...feature} />
+          ))}
         </div>
       </motion.div>
 
@@ -35,13 +33,11 @@ const WhatsNew = () => (
         variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <a target="_Blank" rel="noreferrer" href='https://drive.google.com/drive/folders/1-iPwqG_4uyqik0fe-VxnxdCs-tDxD4VB?usp=share_link'>
-          <img
-            src="/Academics.svg"
-            alt="Academics"
-            className="w-[90%] h-[90%] object-contain"
-          />
-        </a>
+        <img
+          src="/acd.svg"
+          alt="Academics"
+          className="w-[90%] h-[90%] object-contain"
+        />
       </motion.div>
     </motion.div>
   </section>

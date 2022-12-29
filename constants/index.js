@@ -42,33 +42,34 @@ export const newFeatures = [
     imgUrl: '/books1.svg',
     title: 'Study Material',
     subtitle:'Click here to get Academic study material',
+    link: 'https://mallareddycybersecurity.firebaseapp.com',
   },
   {
     imgUrl: '/online_video.svg',
     title: 'Courses',
-    subtitle:
-        'Click here to get Premium courses by Industrial experts',
+    subtitle:'Click here to get Premium courses by Industrial experts',
+    link: 'https://drive.google.com/drive/folders/1-iPwqG_4uyqik0fe-VxnxdCs-tDxD4VB?usp=share_link',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/inauguration-1.jpg',
+    image: '/Inauguration.png',
     title: 'Inauguration Ceremony',
-    subtitle:
-        'On behalf of the committe we cordailly invite you to the Inaugural function of "Cyber security association" on monday,Dec 12,2022 at 9.30Am',
+    Description: 'On behalf of the committe we cordailly invite you to the Inaugural function of "Cyber security association" on monday,Dec 12,2022 at 9.30Am',
+    link: '',
   },
   {
-    imgUrl: '/cisco_systems.jpg',
+    image: '/cisco_systems.jpg',
     title: 'Introduction to cyber security by Cisco',
-    subtitle:
-        'Learn what cybersecurity is and its potential impact to you. Understand the most common threats, attacks and vulnerabilities. Gain insights for how businesses protect their operations from attacks. Find the latest job trends and why cybersecurity continues to grow.',
+    Description: 'Learn what cybersecurity is and its potential impact to you. Understand the most common threats, attacks and vulnerabilities. Gain insights for how businesses protect their operations from attacks. Find the latest job trends and why cybersecurity continues to grow.',
+    driveLink: '',
   },
   {
-    imgUrl: '/cs.jpg',
+    image: '/cs.jpg',
     title: 'Guest lecturers',
-    subtitle:
-        'Guest lecturers are invited by Industry people to speak about their experiences and their success. They provide real-life scenarios, new prospects and ideas that can open student’s eyes to new possibilities which can help them to achieve more with less effort.',
+    Description: 'Guest lecturers are invited by Industry people to speak about their experiences and their success. They provide real-life scenarios, new prospects and ideas that can open student’s eyes to new possibilities which can help them to achieve more with less effort.',
+    link: '',
   },
 ];
 
