@@ -1,9 +1,10 @@
-import { Footer, Navbar } from '../components';
+import { Footer } from '../components';
+import CommonNavbar from '../Eventpage/CommonNavbar'
 import Eventspage from '../Eventpage/Events';
 
 const Events = () => (
   <div className="overflow-hidden">
-    <Navbar />
+    <CommonNavbar />
     <div className="relative">
       <div className="gradient-04 z-0" />
       <Eventspage />

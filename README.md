@@ -1,7 +1,6 @@
-# Build and Deploy a Modern Next 13 Website With Framer Motion & Tailwind CSS
+# Build and Deployed our College Cyber Security Association Website 
 
-### [Live Site](https://metaverse-sage-psi.vercel.app/)
+### [Live Site](https://csamrec.social/)
 
-![Chat Application](https://i.ibb.co/sbSHWH0/Thumbnail-1.png)
+![College Cyber Security Association Website](https://i.ibb.co/02VXSWx/Screenshot-1.png)
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro

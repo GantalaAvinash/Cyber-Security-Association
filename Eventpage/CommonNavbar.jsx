@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 // import logo from '../../public/cs-logo.png';
 
-const Navbar = () => {
+const CommonNavbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
@@ -17,10 +17,6 @@ const Navbar = () => {
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="/">Home</a></p>
-          <p><a href="#placements">Placements</a></p>
-          <p><a href="/events">Events</a></p>
-          <p><a href="#academics">Academics</a></p>
-          <p><a href="#blog">About</a></p>
         </div>
       </div>
       {/* <div className="gpt3__navbar-sign">
@@ -35,10 +31,6 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            <p><a href="#placements">Placements</a></p>
-            <p><a href="/events">Events</a></p>
-            <p><a href="#academics">Academics</a></p>
-            <p><a href="#blog">About</a></p>
           </div>
           {/* <div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign in</p>
@@ -51,4 +43,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default CommonNavbar;
