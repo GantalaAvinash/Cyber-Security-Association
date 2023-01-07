@@ -4,13 +4,13 @@ import { motion } from 'framer-motion';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from '../styles';
-import { insights } from '../constants';
 import { staggerContainer } from '../utils/motion';
-import { InsightCard, TitleText, TypingText } from '../components';
+import { TitleText, TypingText } from '../components';
+import EventsCard from './EventsCard';
 
-const Insightpage = () => {
+const Eventspage = () => {
   const [data, setData] = useState([]);
-  const baseUrl = 'http://localhost:1438/api/getevent/';
+  const baseUrl = 'https://csa-backend-iuwv.onrender.com/api/getevent';
   useEffect(() => {
     axios.get(baseUrl)
       .then((response) => {
@@ -22,7 +22,7 @@ const Insightpage = () => {
   <section className={`${styles.paddings} relative z-10` } id='events'>
     <motion.div
       variants={staggerContainer}
-      initial="hidden"
+      initial="show"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
@@ -31,15 +31,12 @@ const Insightpage = () => {
       <TitleText title={<>EVENTS</>} textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {data.map((item, index) => (
-          <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
+          <EventsCard key={`insight-${index}`} {...item} index={index + 1} />
         ))}
       </div>
-      <button type="button" className="mx-auto mt-[60px] mb-[60px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-        Show More..
-      </button>
     </motion.div>
   </section>
   );
 };
 
-export default Insightpage;
+export default Eventspage;
