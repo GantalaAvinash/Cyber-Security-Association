@@ -1,0 +1,35 @@
+{
+    "subjects": [
+        {
+            "semId": 1,
+            "batchId": 1,
+            "subject": "DM"
+        },
+        {
+            "semId": 2,
+            "batchId": 1,
+            "subject": "COA"
+        },
+        {
+            "semId": 3,
+            "batchId": 2,
+            "subject": "DS"
+        },
+        {
+            "semId": 4,
+            "batchId": 2,
+            "subject": "OOP"
+        },
+        {
+            "semId": 5,
+            "batchId": 3,
+            "subject": "os"
+        },
+        {
+            "semId": 6,
+            "batchId": 3,
+            "subject": "GS"
+        }
+        
+    ]
+}
