@@ -54,27 +54,21 @@ export const newFeatures = [
 
 export const insights = [
   {
-    image: 'https://i.ibb.co/j4jnNDQ/Black-Modern-Fashion-Facebook-Cover-Event.png',
+    image: '/Inauguration.png',
     title: 'Inauguration Ceremony',
     Description: 'On behalf of the committe we cordailly invite you to the Inaugural function of "Cyber security association" on monday,Dec 12,2022 at 9.30Am',
     link: '',
   },
   {
-    image: 'https://i.ibb.co/Kqncckt/images.jpg',
+    image: '/cisco_systems.jpg',
     title: 'Introduction to cyber security by Cisco',
     Description: 'Learn what cybersecurity is and its potential impact to you. Understand the most common threats, attacks and vulnerabilities. Gain insights for how businesses protect their operations from attacks. Find the latest job trends and why cybersecurity continues to grow.',
     driveLink: '',
   },
   {
-    image: 'https://i.ibb.co/nCHMfQ2/hrblog.png',
+    image: '/cs.jpg',
     title: 'Guest lecturers',
     Description: 'Guest lecturers are invited by Industry people to speak about their experiences and their success. They provide real-life scenarios, new prospects and ideas that can open student’s eyes to new possibilities which can help them to achieve more with less effort.',
-    link: '',
-  },
-  {
-    image: 'https://i.ibb.co/8jbNm1X/Twitter-Quote-Template-for-Social-Media.png',
-    title: 'Hunky Brains',
-    Description: 'This is a tech quiz held for CSE , IT , CSE ( AIML, CS, DS, IOT) Conducted By Cyber Security Association.',
     link: '',
   },
 ];
